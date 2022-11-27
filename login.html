@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Market Meta</title>
+    <link href="login-page.css" rel="stylesheet" />
+</head>
+<body>
+	<!-- Page Container -->
+	<div id="Container">
+		<!-- Header -->
+		<header>
+			<div id="top" class="upper">
+				<!-- Logo -->
+				<div id="logo">
+					<h2>Market Meta</h2>
+				</div>
+				<!-- Navigation -->
+				<nav>
+					<ul>
+						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="courses.html" class="active">Courses</a></li>
+						<li><a href="login.html" class="active">User Portal</a></li>
+						<li><a href="about.html" class="active">About</a></li>
+					</ul>
+				</nav>
+			</div>
+			<!--<div id = "topic" class = "course">
+			<h3 align = "center">Part 1: Foundation of Risk Management</h3>
+			<h4 align = "left">Chapter 1: Introduction of Risk Management</h4>
+		</div>-->
+		</header>
+		<!--<div id="central" class="main-block">-->
+		<div id="central-main-block" class="content">
+			<h3 align="center"><i>Welcome to Market Meta</i></h3>
+			<!--<img src="Tiger.jpeg" alt="Tiger"  />-->
+			<section>
+			</section>
+		</div>
+		<div id="central-right-block" class="content">
+			<div id="login" class="login-page">
+				<h3 align="center"><i>Sign In</i></h3>
+				<form action="login.php" method="POST">
+					<div class="field">
+						<ul>
+							<li>
+								<lable for="user-id">User ID:</lable><input type="text" name="user-id" id="user-id" placeholder="User ID">
+								<lable for="password">Password:</lable><input type="password" name="User password" id="password" placeholder="Password" required>
+							</li>
+						</ul>
+					</div>
+					<input class="button" type="submit" name="" value="Submit">
+				</form>
+				<Section>
+					<h3 align="center"><i>Sign Up</i></h3>
+					<p align="center"><small>Asterisk (*) mark fields are mandatory.</small></p>
+					<form action="signup.php" method="POST">
+						<div class="field">
+							<ul>
+								<li>
+									<lable for="Name">Full Name:<span aria-label="required">* </span></lable>
+									<select name="title" id="title">
+										<option selected>Mr.</option>
+										<option>Ms.</option>
+										<option>Mrs.</option>
+										<!--<option>Shri.</option>
+							<option>Shrmt.</option>-->
+									</select>
+									<input type="text" name="First Name" id="Name" placeholder="First Name">
+									<input type="text" name="Middle Name" id="Name" placeholder="Middle Name">
+									<input type="text" name="Last Name" id="Name" placeholder="Last Name">
+								</li>
+							</ul>
+						</div>
+						<div class="field">
+							<ul>
+								<li>
+									<lable for="username">User Name:<span aria-label="required">* </span></lable>
+									<input type="text" name="username" id="username" placeholder="User ID">
+								</li>
+								<li>
+									<lable for="password">Password:</lable>
+									<input type="password" name="User password" id="password" placeholder="Password" required>
+									<input type="password" name="User password" id="password" placeholder="Confirm Password" required>
+								</li>
+							</ul>
+						</div>
+						<div class="field">
+							<ul>
+								<li>
+									<lable for="phone">Phone:<span aria-label="required">* </span></lable>
+									<input type="text" name="Phone" id="phone" placeholder="Mobile No.">
+								</li>
+								<li>
+									<lable for="email">E-Mail ID:<span aria-label="required">* </span></lable>
+									<input type="text" name="email" id="email" placeholder="E-Mail ID">
+								</li>
+							</ul>
+						</div>
+						<div class="field">
+							<ul>
+								<li>
+									<lable for="bday">Birth Date:</lable>
+									<input type="text" name="bday" id="bday">
+								</li>
+								<li>
+									<lable>Sex:</lable>
+									<lable for="male">Male</lable>
+									<input type="radio" name="gender" id="male" value="Male">
+									<lable for="female">Female</lable>
+									<input type="radio" name="gender" id="female" value="Female">
+									<lable for="age">Age:</lable>
+									<input type="text" name="age" id="age">
+								</li>
+							</ul>
+						</div>
+						<div class="field">
+							<lable for="marketing">Please tick this box if you would like to receive special offers from Market Meta: </lable>
+							<input type="checkbox" name="marketing" id="marketing">
+						</div>
+						<input class="button" type="reset" name="" value="Clear">
+						<input class="button" type="submit" name="" value="Submit">
+					</form>
+				</Section>
+			</div>
+		</div>
+		<!--</div>-->
+		<div id="bottom-left-block" class="highlights">
+			<h3 align="center"><i>Market Updates</i></h3>
+			<ul><li><a href="https://www.nseindia.com/">NSE</a></li><li><a href="https://www.bseindia.com/">BSE</a></li></ul>
+		</div>
+		<div id="bottom-center-block" class="highlights">
+			<h3 align="center"><i>News</i></h3>
+			<ul><li><a href="https://www.nseindia.com/">Economic & Financial Updates</a></li><li><a href="https://www.bseindia.com/">Global Affairs</a></li></ul>
+		</div>
+		<div id="bottom-right-block" class="highlights">
+			<h3 align="center"><i>Reports</i></h3>
+			<ul><li><a href="https://www.nseindia.com/companies-listing/corporate-filings-financial-results">Financial Reports</a></li><li><a href="https://www.nseindia.com/all-reports">Market Reports</a></li></ul>
+		</div>
+		<!-- footer section --->
+		<div id="bottom" class="footnote">
+			<footer>
+				<small>&copy; 2022 Money Market. All Rights Reserved.</small>
+				<a href="Sitemap.html">Sitemap</a>
+			</footer>
+		</div>
+	</div><!-- Container div -->
+</body>
+</html>
