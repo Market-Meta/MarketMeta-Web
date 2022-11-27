@@ -79,7 +79,7 @@ header nav ul li{
 	color:#fff;
 	height:636px;
 	float: left;
-	width: 67%;
+	width: 65%;
 	border: 1px solid #fff;
 	box-sizing: border-box;
 	padding: 10px;
@@ -90,7 +90,7 @@ header nav ul li{
 #central-right-block{
 	background-color: #DCDCDC;
 	float: right;
-	width: 33%;
+	width: 35%;
 	border: 1px solid #fff;
 	box-sizing: border-box;
 	padding: 10px;
